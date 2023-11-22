@@ -1,4 +1,23 @@
-.App {
+body {
+  background-color: black !important;
+}
+
+h1 {
+  color: white !important;
+}
+
+.nav-link {
+  color: transparent;
+  transition: color 0/3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: white !important;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +54,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
